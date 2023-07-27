@@ -1,0 +1,82 @@
+#navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.showcase h1 {
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.showcase h3 {
+  font-size: 1.2rem;
+}
+
+#what {
+  padding: 2rem;
+}
+
+.what-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0rem 0rem;
+}
+
+.what-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.brief p {
+  text-align: center;
+}
+
+.who {
+  display: block;
+  color: #1e3d59;
+}
+
+.who div {
+  flex: none;
+}
+
+.who .image {
+  height: 200px;
+}
+
+.client {
+  color: #1e3d59;
+  padding: 2rem;
+}
+
+.client-images img {
+  width: 100px;
+  width: 100px;
+}
+
+.client-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+#contact {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 90%;
+}
+
+#contact .map {
+  display: none;
+}

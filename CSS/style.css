@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f8f9fc;
+  scroll-behavior: smooth;
+  background-color: #fff;
+}
+
+.text-primary {
+  color: #da7b93;
+}
+
+a {
+  text-decoration: none;
+  color: #f8f9fc;
+}
+
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #2f4454;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li {
+  list-style: none;
+  padding: 0.65rem;
+}
+
+#navbar ul li a {
+  color: #f8f9fc;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+#navbar ul li a:hover {
+  color: #da7b93;
+  transition: 0.65s;
+}
+
+/* SHOWCASE SECTION */
+
+.showcase h1 {
+  letter-spacing: 1rem;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.showcase h3 {
+  font-size: 1.7rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.showcase {
+  background: #333 url(../images/showcase-money.jpeg) no-repeat center
+    center/cover;
+  height: 100vh;
+}
+
+.showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  height: 100%;
+  padding: 0 2rem;
+
+  /* over lay */
+  top: 0;
+  left: 0;
+  right: 0%;
+  bottom: 0%;
+  background-color: rgb(0, 0, 0, 0.75);
+}
+
+.showcase .showcase-content .btn {
+  background-color: #da7b93;
+  padding: 0.75rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+}
+
+.showcase .showcase-content .btn:hover {
+  background-color: #266a9e;
+  transition: 0.65s;
+}
+
+/* WHAT WE DO */
+#what {
+  color: #1e3d59;
+  padding: 5rem;
+}
+
+#what h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+#what h1 a {
+  color: #1e3d59;
+}
+
+.what-container {
+  display: flex;
+  gap: 3rem;
+  padding: 0 6rem;
+}
+
+.what-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.what-content i {
+  background-color: #da7b93;
+  padding: 0.75rem;
+  font-size: 2rem;
+  color: #1e3d59;
+  border-radius: 100%;
+}
+
+.brief {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.brief p {
+  text-align: left;
+}
+
+/* WHO SECTION */
+.who {
+  display: flex;
+  color: #1e3d59;
+}
+
+.who div {
+  flex: 1;
+}
+
+.who .image {
+  background: url("../images/Pension.jpeg") no-repeat center center/cover;
+  height: inherit;
+}
+
+.who-container {
+  background-color: #2f4454;
+  color: #f8f9fc;
+  padding: 2rem;
+}
+
+.who h1 {
+  font-size: 2rem;
+}
+
+.who h1 a {
+  color: #fff;
+}
+
+.who-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.who-details .team {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.who-details .team ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.who-details .team ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #266a9e;
+}
+
+.who-details .team ul li span {
+  font-weight: bold;
+}
+
+/* OUR CLIENT */
+.client {
+  color: #1e3d59;
+  padding: 5rem 8rem;
+}
+
+.client h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.client-images img {
+  width: 150px;
+  width: 150px;
+}
+
+.client-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* CONTACT */
+
+.bg-primary {
+  background-color: #031163;
+}
+
+#contact {
+  display: flex;
+}
+
+#contact form {
+  margin-top: 1rem;
+}
+
+.contact-form {
+  padding: 1rem;
+  padding-left: 3rem;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-details {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 60%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  border: #031163;
+}
+
+.contact-form input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid #da7b93;
+}
+
+#contact .btn {
+  background-color: #da7b93;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#contact .btn:hover {
+  background-color: #266a9e;
+  transition: 0.65s;
+}
+
+#contact .contact-form textarea {
+  height: 100px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2f4454;
+  color: #fff;
+  padding: 1.4rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}

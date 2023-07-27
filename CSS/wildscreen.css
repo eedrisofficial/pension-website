@@ -1,0 +1,31 @@
+.what-content {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  gap: 0.5rem;
+}
+
+.what-content i {
+  align-self: center;
+}
+
+#contact .map {
+  background-color: #031163;
+}
+
+#contact .contact-form {
+  flex: 3;
+}
+
+.contact-form {
+  padding: 2rem;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 60%;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  border: #031163;
+}
